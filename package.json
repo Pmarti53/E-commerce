@@ -1,0 +1,25 @@
+{
+    "name": "e-commerce",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "scripts": {
+        "test": "test"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Pmarti53/E-commerce.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Pmarti53/E-commerce/issues"
+    },
+    "homepage": "https://github.com/Pmarti53/E-commerce#readme",
+    "dependencies": {
+        "dotenv": "^9.0.2",
+        "express": "^4.17.1",
+        "mysql2": "^2.2.5",
+        "sequelize": "^6.6.2"
+    }
+}
