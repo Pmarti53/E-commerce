@@ -9,7 +9,7 @@ router.get('/', (req, res) => {
   Product.findAll({
     attributes: [
       'id',
-      'product',
+      'product_name',
       'price',
       'stock'
     ],
@@ -43,7 +43,7 @@ router.get('/:id', (req, res) => {
     },
     attributes: [
       'id',
-      'product',
+      'product_name',
       'price',
       'stock'
     ],
